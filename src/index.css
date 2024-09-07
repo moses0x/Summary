@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(#29251c, #2c2306); */
+  /* background-color: #0891b2; */
+  background-color: #F5F5F5;
+  color: #d9e2f1;
+  min-height: 100vh;
+  max-width: 100%;
+  overflow: auto;
+}
+
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-header #title {
+  display: flex;
+  gap: .1rem;
+  align-items: center;
+}
+
+#main-header #title img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+#main-header button {
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  margin: 0;
+  color: black;
+}
+
+.button {
+  font: inherit;
+  cursor: pointer;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}
+
+.button:hover,
+.button:active {
+  background-color: #0891b2;
+  border-color: #0891b2;
+  color: #fff;
+}
+
+.text-button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.text-button:hover,
+.text-button:active {
+  color: #fff;
+}

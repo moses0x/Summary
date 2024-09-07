@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  padding: 6rem 1rem 3rem 0;
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,7 +21,7 @@ body {
   color: #d9e2f1;
   min-height: 100vh;
   max-width: 100%;
-  overflow: auto;
+  overflow: none;
 }
 
 #main-header {

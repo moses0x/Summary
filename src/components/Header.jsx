@@ -1,6 +1,5 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
-// import { MdContactSupport } from "react-icons/md";
 import Sidebar from "./Sidebar";
 import { IoIosNotifications } from "react-icons/io";
 import LogoImg from "../assets/Balamcee.jpg";
@@ -9,7 +8,7 @@ const Header = () => {
   return (
     <>
      <Sidebar />
-      <header className="top-0 w-full h-20 bg-white shadow flex justify-around z-10 items-center mb-6 p-8">
+      <header className="fixed left-0 top-0 w-full h-20 bg-white shadow flex justify-around z-10 items-center mb-6 p-8">
         <div className="lg:invisible visible" id="main-header">
           <div id="title">
             <img src={LogoImg} />
